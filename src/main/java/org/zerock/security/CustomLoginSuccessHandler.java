@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    로그인 한 사용자에 부여한 권한 Authentication 객체를 이용해서 사용자가 가진 권한을 체크
+ */
 @Log4j
 public class CustomLoginSuccessHandler implements AuthenticationSuccessHandler {
 
