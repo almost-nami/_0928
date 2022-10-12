@@ -19,6 +19,7 @@
         <property name="suffix" value=".jsp"></property>
     </bean>
 
+    <!-- 스프링시큐리티 어노테이션 설정 -->
     <security:global-method-security pre-post-annotations="enabled" secured-annotations="enabled" />
 
 </beans>
